@@ -82,19 +82,17 @@ const test3={'1970-01-03': -1000000, '1970-01-05': 1000000,'2023-04-16':14500}
 const test4={'2022-04-11': 20, '2022-04-12': 30, '2022-04-13': 40, '2022-04-14': 50, '2022-04-15': 60, '2022-04-16': 70, '2022-04-17': 80};
 const test5={'2023-04-09': -5, '2023-04-10': 10, '2023-04-11': 0, '2023-04-12': -20, '2023-04-13': 15, '2023-04-14': 25, '2023-04-15': -30}
 const test6={'2023-04-08': 2, '2023-04-09': 5, '2023-04-10': 10, '2023-04-11': 0, '2023-04-14': 5, '2023-04-15': 10}
-const test7={'2023-04-11': 4, '2023-04-12': 8, '2023-04-13': 10, '2023-04-14': 5, '2023-04-15': 10}
+const test7={'2023-04-11': 4, '2023-04-12': 8, '2023-04-13': 10, '2023-04-14': 5, '2023-04-15': 10,'2029-01-07':5932}
 const test8={'2023-04-09': 5, '2023-04-10': 10, '2023-04-11': 20, '2023-04-12': 30, '2023-04-13': 15, '2023-04-14': 25, '2023-04-15': 50}
 const test9={'2022-04-04': 10, '2022-04-05': 20, '2022-04-06': 30, '2022-04-07': 40, '2022-04-08': 50, '2022-04-09': 60, '2022-04-10': 70, '2022-04-11': 80, '2022-04-12': 90};
 const test10={'2024-01-01':99999,'2020-01-04':8,'2029-01-07':-75632};
-console.log("TestCase1 is:",test1)
-console.log("Solution is:",solution(test1))
-console.log(test2)
-console.log("TestCase2 is:",solution(test2))
-console.log("TestCase2 is:",solution(test3))
-console.log("TestCase2 is:",solution(test4))
-console.log("TestCase2 is:",solution(test5))
-console.log("TestCase2 is:",solution(test6))
-console.log("TestCase2 is:",solution(test7))
-console.log("TestCase2 is:",solution(test8))
-console.log("TestCase2 is:",solution(test9))
-console.log("TestCase2 is:",solution(test10))
+console.log("Solution 1 is:",solution(test1))
+console.log("Solution 2 is:",solution(test2))
+console.log("Solution 3 is:",solution(test3))
+console.log("Solution 4 is:",solution(test4))
+console.log("Solution 5 is:",solution(test5))
+console.log("Solution 6 is:",solution(test6))
+console.log("Solution 7 is:",solution(test7))
+console.log("Solution 8 is:",solution(test8))
+console.log("Solution 9 is:",solution(test9))
+console.log("Solution 10 is:",solution(test10))
